@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Резюме</title>
     <link rel="icon"  type="image/x-icon" href="favicon.ico">
+    <link rel="fonts" href="resume.css">
+    <link rel="stylesheet" href="style.css">
+
 
 </head>
 
 <body>
-    <header>
-        <br>
-        <hr>
-        <table>
+    <header class="header">
+        <table id="table-header">
             <tr>
-                <th>
+                <th id="th-h">
                     <picture>
                         <source media="(min-width: 300x)" srcset="./img/logo.png" type="image/png">
                         <img src="img.png" height="150" width="140"/></picture>
                 </th>
-                <th>
-                    Ермаков Станислав
+                <th id="th-h">
+                    Ermakov Stanislav
                 </th>
             </tr>
         </table>
 
-        <h2>Программист разработчик</h2>
+        <h1>Programmer developer</h1>
 
     </header>
-    <main>
-        <section>
+    <br>
+    <main class="main-content">
 
-
+        <section class="card">
+            <h2>Information</h2>
             <table>
                 <tr>
-                    <th>Номер телефона</th>
-                    <th>Почта</th>
+                    <th>Number</th>
+                    <th>Mail</th>
                 </tr>
 
                 <tr>
@@ -46,29 +48,32 @@
         </section>
         <br>
 
-        <section>
-            <b>Навыки</b>
-            <pre>C++, Java, Spring Boot, Kotlin, Python, Docker, Git, HTML, CSS,
-КОМПАС-3D, FUSION-360, 1C:Предприятие </pre>
+        <section class="card">
+            <h2>Skills</h2>
+            <p>C++, Java, Spring Boot, Kotlin, Python, Docker, Git, HTML, CSS,
+КОМПАС-3D, FUSION-360, 1C:Предприятие </p>
         </section>
-        <section>
-            <b>Образование</b>
+        <section class="card">
+            <h2>Educate</h2>
             <ul>
-                <li>Политехнический колледж, чертежник конструктор</li>
-                <li>Элитная подготовка Samsung, андроид разработчик</li>
-                <li>Школа, среднее-общее образование </li>
+                <li>Polytechnic College, draftsman designer</li>
+                <li>Elite Samsung training, Android developer</li>
+                <li>School, secondary and general education </li>
             </ul>
-            <b>Достижения</b>
+        </section>
+        <section class="card">
+            <h2>Achievements</h2>
             <ul>
-                <li>Успешная защита проекта в программе Samsung</li>
-                <li>Получение стажировки в компании</li>
+                <li>Successful project defense in the Samsung program</li>
+                <li>Getting an internship at a company</li>
             </ul>
         </section>
     </main>
+    <br>
 
-    <aside>
-        <section>
-            <b>Опыт работы с различными ПО</b>
+    <aside class="sidebar">
+        <section class="card">
+            <h2>Experience with various software</h2>
             <ul>
                 <li>
                     IntelliJ IDEA
@@ -84,18 +89,19 @@
 
         </section>
     </aside>
+    <br>
 
 
+    <footer class="footer">
+        <section class="card">
+            <h2>More information:</h2>
 
+            <ul>
+                <li><a href="https://github.com/stanislavBtg"> Github </a></li>
+                <li><a href="https://i.pinimg.com/736x/c8/cc/24/c8cc24bba37a25c009647b8875aae0e3.jpg">Опасный зверь </a></li>
+            </ul>
+        </section>
 
-
-    <footer>
-        <b>Больше информации:</b>
-
-        <ul>
-            <li><a href="https://github.com/stanislavBtg"> Github </a></li>
-            <li><a href="https://i.pinimg.com/736x/c8/cc/24/c8cc24bba37a25c009647b8875aae0e3.jpg">Опасный зверь </a></li>
-        </ul>
 
     </footer>
 
