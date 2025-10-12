@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'fonts_1';
+    src: url('fonts/fonts_1.ttf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+}
+@font-face{
+    font-family: 'fonts_2';
+    src: url('fonts/fonts_2.ttf');
+    font-style: normal;
+    font-weight: 500;
+    font-display: auto;
+}
+
+body{
+    font-family: 'fonts_2', sans-serif;
+    background: peachpuff;
+    color: #333;
+    padding: 20px;
+}
+
+.header, .main-content, .footer, .sidebar {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+.card{
+    background-color: #f1eded;
+    box-shadow: 3px 4px 14px darksalmon;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease 0.1ms;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    font-family: 'fonts_1', sans-serif;
+    color: #0a0c07;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #252c35;
+}
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    color: #555;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+a {
+    color: #4e73df;
+    text-decoration: none;
+    transition: all 0.3s ease 0.1ms;
+}
+
+a:hover {
+    color: #68322f;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+}
+
+th, tr {
+    padding: 12px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: black;
+    font-weight: 600;
+}
+
+
+#table-header{
+    width: 100%;
+
+}
+#th-h, #tr-h {
+    border-bottom: black solid 2px;
+    padding: 12px;
+    text-align: left;
+}
+#th-h {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+}
